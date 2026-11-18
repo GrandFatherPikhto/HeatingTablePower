@@ -2024,7 +2024,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 111.76 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +2344,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 163.83 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +2663,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 68.58 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 128.27 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 111.76 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4124,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 128.27 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4364,7 +4364,7 @@
 				)
 			)
 		)
-		(property "Value" "74HC14"
+		(property "Value" "74HCT14D"
 			(at 163.83 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)

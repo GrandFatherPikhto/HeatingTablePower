@@ -1,6 +1,15 @@
 {
-  "added_nets": [],
-  "removed_nets": [],
+  "added_nets": [
+    "/220V_COMMON",
+    "/Channel 1/220V_UP",
+    "/Channel 2/220V_UP"
+  ],
+  "removed_nets": [
+    "/220V/220V_IN_01",
+    "/220V/220V_IN_02",
+    "/HEATER_220V_01",
+    "/HEATER_220V_02"
+  ],
   "reclassified": [],
   "added_components": [],
   "removed_components": []

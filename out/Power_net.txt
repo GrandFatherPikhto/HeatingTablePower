@@ -1,5 +1,5 @@
 # Power — нетлист (упрощённый)
-Цепей всего: 34 (без unconnected: 28)
+Цепей всего: 33 (без unconnected: 27)
 
 ## / (корень)
   +5P  [Default]
@@ -12,29 +12,26 @@
     R11 (330) -> пины: 1
     R7 (470R) -> пины: 1
     R8 (330) -> пины: 1
-    U1 (74HC14) -> пины: 14
+    U1 (74HCT14D) -> пины: 14
   /220V  [Default]
-    J6 (Heater Out) -> пины: 1
-    J7 (Heater Out) -> пины: 1
-    NT1 (NetTie_2) -> пины: 2
-    NT2 (NetTie_2) -> пины: 2
-    Q1 (BTA12-600CRG) -> пины: 2
-    Q2 (BTA12-600CRG) -> пины: 2
-    R10 (39R) -> пины: 1
-    R13 (39R) -> пины: 1
-  /HEATER_220V_01  [Default]
+    C1 (0.1uF 630V) -> пины: 1
     C7 (0.1uF 630V) -> пины: 2
-    J6 (Heater Out) -> пины: 2
-    Q1 (BTA12-600CRG) -> пины: 1
-  /HEATER_220V_02  [Default]
     C8 (0.1uF 630V) -> пины: 2
-    J7 (Heater Out) -> пины: 2
+    J1 (220V In) -> пины: 1
+    Q1 (BTA12-600CRG) -> пины: 1
     Q2 (BTA12-600CRG) -> пины: 1
+    RV1 (SIOV-S14K275E2) -> пины: 1
+  /220V_COMMON  [Default]
+    C1 (0.1uF 630V) -> пины: 2
+    J1 (220V In) -> пины: 2
+    J6 (Heater Out) -> пины: 2
+    J7 (Heater Out) -> пины: 2
+    RV1 (SIOV-S14K275E2) -> пины: 2
   /HEATER_SIGNAL_01  [Default]
-    U1 (74HC14) -> пины: 2, 13
+    U1 (74HCT14D) -> пины: 2, 13
     U2 (MOC3063M) -> пины: 2
   /HEATER_SIGNAL_02  [Default]
-    U1 (74HC14) -> пины: 4, 11
+    U1 (74HCT14D) -> пины: 4, 11
     U3 (MOC3063M) -> пины: 2
   GND  [Default]
     C2 (100 nF) -> пины: 2
@@ -49,7 +46,7 @@
     J5 (+5V In) -> пины: 2
     R1 (10K) -> пины: 2
     R2 (10K) -> пины: 2
-    U1 (74HC14) -> пины: 5, 7, 9
+    U1 (74HCT14D) -> пины: 5, 7, 9
   Net-(C7-Pad1)  [Default]
     C7 (0.1uF 630V) -> пины: 1
     R10 (39R) -> пины: 2
@@ -79,10 +76,10 @@
     U3 (MOC3063M) -> пины: 4
   Net-(R3-Pad2)  [Default]
     R3 (1K) -> пины: 2
-    U1 (74HC14) -> пины: 1
+    U1 (74HCT14D) -> пины: 1
   Net-(R4-Pad2)  [Default]
     R4 (1K) -> пины: 2
-    U1 (74HC14) -> пины: 3
+    U1 (74HCT14D) -> пины: 3
   Net-(R8-Pad2)  [Default]
     R8 (330) -> пины: 2
     U2 (MOC3063M) -> пины: 1
@@ -90,22 +87,22 @@
     R9 (330R) -> пины: 2
     U2 (MOC3063M) -> пины: 4
 
-## /220V
-  /220V/220V_IN_01  [Default]
-    C1 (0.1uF 630V) -> пины: 1
-    J1 (Heater 01) -> пины: 1
-    RV1 (SIOV-S14K275E2) -> пины: 1
-  /220V/220V_IN_02  [Default]
-    C1 (0.1uF 630V) -> пины: 2
-    J1 (Heater 01) -> пины: 2
-    RV1 (SIOV-S14K275E2) -> пины: 2
-
 ## /Channel 1
+  /Channel 1/220V_UP  [Default]
+    J6 (Heater Out) -> пины: 1
+    NT1 (NetTie_2) -> пины: 2
+    Q1 (BTA12-600CRG) -> пины: 2
+    R10 (39R) -> пины: 1
   /Channel 1/UP_ARM  [Default]
     NT1 (NetTie_2) -> пины: 1
     U2 (MOC3063M) -> пины: 6
 
 ## /Channel 2
+  /Channel 2/220V_UP  [Default]
+    J7 (Heater Out) -> пины: 1
+    NT2 (NetTie_2) -> пины: 2
+    Q2 (BTA12-600CRG) -> пины: 2
+    R13 (39R) -> пины: 1
   /Channel 2/UP_ARM  [Default]
     NT2 (NetTie_2) -> пины: 1
     U3 (MOC3063M) -> пины: 6
@@ -121,8 +118,8 @@
     R4 (1K) -> пины: 1
   /Signal/HEATER_LED_01  [Default]
     R6 (330R) -> пины: 1
-    U1 (74HC14) -> пины: 12
+    U1 (74HCT14D) -> пины: 12
   /Signal/HEATER_LED_02  [Default]
     R5 (330R) -> пины: 1
-    U1 (74HC14) -> пины: 10
+    U1 (74HCT14D) -> пины: 10
 

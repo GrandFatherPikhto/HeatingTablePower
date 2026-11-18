@@ -1,18 +1,17 @@
-Цепей (без unconnected): 28
+Цепей (без unconnected): 27
 
 [POWER_220V  ] prio=0   track=3.00 clr=0.50 via=2.00/1.00mm                       0: [пусто]
 [POWER_DIGIT ] prio=1   track=0.60 clr=0.20 via=0.80/0.40mm                       0: [пусто]
-[Default     ] prio=2147483647 track=0.60 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   28: +5P, /220V, /220V/220V_IN_01, /220V/220V_IN_02, /Channel 1/UP_ARM, /Channel 2/UP_ARM, /HEATER_220V_01, /HEATER_220V_02, /HEATER_SIGNAL_01, /HEATER_SIGNAL_02, /Signal/HEATER_IN_01, /Signal/HEATER_IN_02, /Signal/HEATER_LED_01, /Signal/HEATER_LED_02, GND, Net-(C7-Pad1), Net-(C8-Pad1), Net-(D1-A), Net-(D2-A), Net-(D3-A), Net-(Q1-G), Net-(Q2-G), Net-(R11-Pad2), Net-(R12-Pad2), Net-(R3-Pad2), Net-(R4-Pad2), Net-(R8-Pad2), Net-(R9-Pad2)
+[Default     ] prio=2147483647 track=0.60 clr=0.20 via=0.60/0.30 diffpair=0.20/0.25mm   27: +5P, /220V, /220V_COMMON, /Channel 1/220V_UP, /Channel 1/UP_ARM, /Channel 2/220V_UP, /Channel 2/UP_ARM, /HEATER_SIGNAL_01, /HEATER_SIGNAL_02, /Signal/HEATER_IN_01, /Signal/HEATER_IN_02, /Signal/HEATER_LED_01, /Signal/HEATER_LED_02, GND, Net-(C7-Pad1), Net-(C8-Pad1), Net-(D1-A), Net-(D2-A), Net-(D3-A), Net-(Q1-G), Net-(Q2-G), Net-(R11-Pad2), Net-(R12-Pad2), Net-(R3-Pad2), Net-(R4-Pad2), Net-(R8-Pad2), Net-(R9-Pad2)
 
-[Default] 28 цепей — мимо всех паттернов:
+[Default] 27 цепей — мимо всех паттернов:
     +5P
     /220V
-    /220V/220V_IN_01
-    /220V/220V_IN_02
+    /220V_COMMON
+    /Channel 1/220V_UP
     /Channel 1/UP_ARM
+    /Channel 2/220V_UP
     /Channel 2/UP_ARM
-    /HEATER_220V_01
-    /HEATER_220V_02
     /HEATER_SIGNAL_01
     /HEATER_SIGNAL_02
     /Signal/HEATER_IN_01

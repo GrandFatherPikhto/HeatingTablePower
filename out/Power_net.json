@@ -1,7 +1,7 @@
 {
   "source_file": "Power.net",
-  "total_nets": 34,
-  "connected_nets": 28,
+  "total_nets": 33,
+  "connected_nets": 27,
   "nets": [
     {
       "name": "+5P",
@@ -82,7 +82,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "14"
@@ -96,15 +96,119 @@
       "netclass": "Default",
       "nodes": [
         {
-          "ref": "J6",
-          "value": "Heater Out",
+          "ref": "C1",
+          "value": "0.1uF 630V",
           "missing_footprint": false,
           "pins": [
             "1"
           ]
         },
         {
+          "ref": "C7",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C8",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "220V In",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "Q1",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "RV1",
+          "value": "SIOV-S14K275E2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/220V_COMMON",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "220V In",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J6",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
           "ref": "J7",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "RV1",
+          "value": "SIOV-S14K275E2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Channel 1/220V_UP",
+      "sheet_path": [
+        "Channel 1"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
           "value": "Heater Out",
           "missing_footprint": false,
           "pins": [
@@ -120,23 +224,7 @@
           ]
         },
         {
-          "ref": "NT2",
-          "value": "NetTie_2",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
           "ref": "Q1",
-          "value": "BTA12-600CRG",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "Q2",
           "value": "BTA12-600CRG",
           "missing_footprint": false,
           "pins": [
@@ -149,80 +237,6 @@
           "missing_footprint": false,
           "pins": [
             "1"
-          ]
-        },
-        {
-          "ref": "R13",
-          "value": "39R",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "/220V/220V_IN_01",
-      "sheet_path": [
-        "220V"
-      ],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C1",
-          "value": "0.1uF 630V",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
-          "ref": "J1",
-          "value": "Heater 01",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        },
-        {
-          "ref": "RV1",
-          "value": "SIOV-S14K275E2",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "/220V/220V_IN_02",
-      "sheet_path": [
-        "220V"
-      ],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C1",
-          "value": "0.1uF 630V",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "J1",
-          "value": "Heater 01",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "RV1",
-          "value": "SIOV-S14K275E2",
-          "missing_footprint": false,
-          "pins": [
-            "2"
           ]
         }
       ]
@@ -253,6 +267,47 @@
       ]
     },
     {
+      "name": "/Channel 2/220V_UP",
+      "sheet_path": [
+        "Channel 2"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J7",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "NT2",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "39R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
       "name": "/Channel 2/UP_ARM",
       "sheet_path": [
         "Channel 2"
@@ -278,75 +333,13 @@
       ]
     },
     {
-      "name": "/HEATER_220V_01",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C7",
-          "value": "0.1uF 630V",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "J6",
-          "value": "Heater Out",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "Q1",
-          "value": "BTA12-600CRG",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "/HEATER_220V_02",
-      "sheet_path": [],
-      "netclass": "Default",
-      "nodes": [
-        {
-          "ref": "C8",
-          "value": "0.1uF 630V",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "J7",
-          "value": "Heater Out",
-          "missing_footprint": false,
-          "pins": [
-            "2"
-          ]
-        },
-        {
-          "ref": "Q2",
-          "value": "BTA12-600CRG",
-          "missing_footprint": false,
-          "pins": [
-            "1"
-          ]
-        }
-      ]
-    },
-    {
       "name": "/HEATER_SIGNAL_01",
       "sheet_path": [],
       "netclass": "Default",
       "nodes": [
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "2",
@@ -370,7 +363,7 @@
       "nodes": [
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "4",
@@ -470,7 +463,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "12"
@@ -495,7 +488,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "10"
@@ -607,7 +600,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "5",
@@ -839,7 +832,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "1"
@@ -862,7 +855,7 @@
         },
         {
           "ref": "U1",
-          "value": "74HC14",
+          "value": "74HCT14D",
           "missing_footprint": false,
           "pins": [
             "3"

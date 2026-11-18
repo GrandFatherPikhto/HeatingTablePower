@@ -17,7 +17,7 @@ H1   | MountingHole              | MountingHole_3.2mm_M3
 H2   | MountingHole              | MountingHole_3.2mm_M3         
 H3   | MountingHole              | MountingHole_3.2mm_M3         
 H4   | MountingHole              | MountingHole_3.2mm_M3         
-J1   | Heater 01                 | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J1   | 220V In                   | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
 J4   | Signal Input              | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
 J5   | +5V In                    | JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
 J6   | Heater Out                | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
@@ -40,6 +40,6 @@ R11  | 330                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
 R12  | 330R                      | R_1210_3225Metric_Pad1.30x2.65mm_HandSolder
 R13  | 39R                       | R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
 RV1  | SIOV-S14K275E2            | RV_Disc_D15.5mm_W5mm_P7.5mm   
-U1   | 74HC14                    | SOIC-14_3.9x8.7mm_P1.27mm     
+U1   | 74HCT14D                  | SOIC-14_3.9x8.7mm_P1.27mm     
 U2   | MOC3063M                  | DIP-6_W7.62mm                 
 U3   | MOC3063M                  | DIP-6_W7.62mm                 

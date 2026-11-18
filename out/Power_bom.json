@@ -91,7 +91,7 @@
   },
   {
     "ref": "J1",
-    "value": "Heater 01",
+    "value": "220V In",
     "footprint": "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
     "missing_footprint": false
   },
@@ -229,7 +229,7 @@
   },
   {
     "ref": "U1",
-    "value": "74HC14",
+    "value": "74HCT14D",
     "footprint": "SOIC-14_3.9x8.7mm_P1.27mm",
     "missing_footprint": false
   },

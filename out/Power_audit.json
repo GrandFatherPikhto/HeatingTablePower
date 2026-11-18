@@ -1,5 +1,5 @@
 {
-  "total_considered": 28,
+  "total_considered": 27,
   "classes": [
     {
       "name": "POWER_220V",
@@ -51,12 +51,11 @@
     "Default": [
       "+5P",
       "/220V",
-      "/220V/220V_IN_01",
-      "/220V/220V_IN_02",
+      "/220V_COMMON",
+      "/Channel 1/220V_UP",
       "/Channel 1/UP_ARM",
+      "/Channel 2/220V_UP",
       "/Channel 2/UP_ARM",
-      "/HEATER_220V_01",
-      "/HEATER_220V_02",
       "/HEATER_SIGNAL_01",
       "/HEATER_SIGNAL_02",
       "/Signal/HEATER_IN_01",
@@ -85,12 +84,11 @@
   "default_unmatched": [
     "+5P",
     "/220V",
-    "/220V/220V_IN_01",
-    "/220V/220V_IN_02",
+    "/220V_COMMON",
+    "/Channel 1/220V_UP",
     "/Channel 1/UP_ARM",
+    "/Channel 2/220V_UP",
     "/Channel 2/UP_ARM",
-    "/HEATER_220V_01",
-    "/HEATER_220V_02",
     "/HEATER_SIGNAL_01",
     "/HEATER_SIGNAL_02",
     "/Signal/HEATER_IN_01",
