@@ -1,0 +1,8 @@
+=== Unconnected / no-connect цепи (6) ===
+
+  unconnected-(U1-Pad6) -> U1.6
+  unconnected-(U1-Pad8) -> U1.8
+  unconnected-(U2-NC-Pad3) -> U2.3
+  unconnected-(U2-NC-Pad5) -> U2.5
+  unconnected-(U3-NC-Pad3) -> U3.3
+  unconnected-(U3-NC-Pad5) -> U3.5

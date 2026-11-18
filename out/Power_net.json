@@ -1,0 +1,920 @@
+{
+  "source_file": "Power.net",
+  "total_nets": 34,
+  "connected_nets": 28,
+  "nets": [
+    {
+      "name": "+5P",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C2",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "47uF 10V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C5",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J5",
+          "value": "+5V In",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R11",
+          "value": "330",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "470R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R8",
+          "value": "330",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/220V",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J6",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J7",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "NT1",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "NT2",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q1",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R10",
+          "value": "39R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "39R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/220V/220V_IN_01",
+      "sheet_path": [
+        "220V"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Heater 01",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "RV1",
+          "value": "SIOV-S14K275E2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/220V/220V_IN_02",
+      "sheet_path": [
+        "220V"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C1",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J1",
+          "value": "Heater 01",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "RV1",
+          "value": "SIOV-S14K275E2",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Channel 1/UP_ARM",
+      "sheet_path": [
+        "Channel 1"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT1",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Channel 2/UP_ARM",
+      "sheet_path": [
+        "Channel 2"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "NT2",
+          "value": "NetTie_2",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/HEATER_220V_01",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C7",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J6",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q1",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/HEATER_220V_02",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C8",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "J7",
+          "value": "Heater Out",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/HEATER_SIGNAL_01",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "2",
+            "13"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/HEATER_SIGNAL_02",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "4",
+            "11"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Signal/HEATER_IN_01",
+      "sheet_path": [
+        "Signal"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "value": "Signal Input",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R3",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Signal/HEATER_IN_02",
+      "sheet_path": [
+        "Signal"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "J4",
+          "value": "Signal Input",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R4",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Signal/HEATER_LED_01",
+      "sheet_path": [
+        "Signal"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R6",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "/Signal/HEATER_LED_02",
+      "sheet_path": [
+        "Signal"
+      ],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R5",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GND",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C2",
+          "value": "100 nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C3",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C4",
+          "value": "47uF 10V",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C5",
+          "value": "10 uF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "C6",
+          "value": "100nF",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "D1",
+          "value": "LED Blue",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D2",
+          "value": "LED Purple",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "D3",
+          "value": "LED Red",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "J4",
+          "value": "Signal Input",
+          "missing_footprint": false,
+          "pins": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "ref": "J5",
+          "value": "+5V In",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R1",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R2",
+          "value": "10K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "5",
+            "7",
+            "9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C7-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C7",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R10",
+          "value": "39R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(C8-Pad1)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "C8",
+          "value": "0.1uF 630V",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        },
+        {
+          "ref": "R13",
+          "value": "39R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D1-A)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D1",
+          "value": "LED Blue",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R5",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D2-A)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D2",
+          "value": "LED Purple",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R6",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(D3-A)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "D3",
+          "value": "LED Red",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "R7",
+          "value": "470R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q1-G)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "Q1",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R9",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(Q2-G)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "Q2",
+          "value": "BTA12-600CRG",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        },
+        {
+          "ref": "R12",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R11-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R11",
+          "value": "330",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R12-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R12",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U3",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R3-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R3",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R4-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R4",
+          "value": "1K",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U1",
+          "value": "74HC14",
+          "missing_footprint": false,
+          "pins": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R8-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R8",
+          "value": "330",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Net-(R9-Pad2)",
+      "sheet_path": [],
+      "netclass": "Default",
+      "nodes": [
+        {
+          "ref": "R9",
+          "value": "330R",
+          "missing_footprint": false,
+          "pins": [
+            "2"
+          ]
+        },
+        {
+          "ref": "U2",
+          "value": "MOC3063M",
+          "missing_footprint": false,
+          "pins": [
+            "4"
+          ]
+        }
+      ]
+    }
+  ]
+}

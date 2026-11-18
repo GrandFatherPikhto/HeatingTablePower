@@ -1,0 +1,248 @@
+[
+  {
+    "ref": "C1",
+    "value": "0.1uF 630V",
+    "footprint": "C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C2",
+    "value": "100 nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C3",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C4",
+    "value": "47uF 10V",
+    "footprint": "CP_Radial_D5.0mm_P2.00mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C5",
+    "value": "10 uF",
+    "footprint": "C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C6",
+    "value": "100nF",
+    "footprint": "C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C7",
+    "value": "0.1uF 630V",
+    "footprint": "C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4",
+    "missing_footprint": false
+  },
+  {
+    "ref": "C8",
+    "value": "0.1uF 630V",
+    "footprint": "C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4",
+    "missing_footprint": false
+  },
+  {
+    "ref": "D1",
+    "value": "LED Blue",
+    "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "D2",
+    "value": "LED Purple",
+    "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "D3",
+    "value": "LED Red",
+    "footprint": "LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H1",
+    "value": "MountingHole",
+    "footprint": "MountingHole_3.2mm_M3",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H2",
+    "value": "MountingHole",
+    "footprint": "MountingHole_3.2mm_M3",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H3",
+    "value": "MountingHole",
+    "footprint": "MountingHole_3.2mm_M3",
+    "missing_footprint": false
+  },
+  {
+    "ref": "H4",
+    "value": "MountingHole",
+    "footprint": "MountingHole_3.2mm_M3",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J1",
+    "value": "Heater 01",
+    "footprint": "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J4",
+    "value": "Signal Input",
+    "footprint": "JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J5",
+    "value": "+5V In",
+    "footprint": "JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J6",
+    "value": "Heater Out",
+    "footprint": "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "missing_footprint": false
+  },
+  {
+    "ref": "J7",
+    "value": "Heater Out",
+    "footprint": "TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT1",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "NT2",
+    "value": "NetTie_2",
+    "footprint": "NetTie-2_SMD_Pad0.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "Q1",
+    "value": "BTA12-600CRG",
+    "footprint": "TO-220-3_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "Q2",
+    "value": "BTA12-600CRG",
+    "footprint": "TO-220-3_Vertical",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R1",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R2",
+    "value": "10K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R3",
+    "value": "1K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R4",
+    "value": "1K",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R5",
+    "value": "330R",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R6",
+    "value": "330R",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R7",
+    "value": "470R",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R8",
+    "value": "330",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R9",
+    "value": "330R",
+    "footprint": "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R10",
+    "value": "39R",
+    "footprint": "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R11",
+    "value": "330",
+    "footprint": "R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R12",
+    "value": "330R",
+    "footprint": "R_1210_3225Metric_Pad1.30x2.65mm_HandSolder",
+    "missing_footprint": false
+  },
+  {
+    "ref": "R13",
+    "value": "39R",
+    "footprint": "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal",
+    "missing_footprint": false
+  },
+  {
+    "ref": "RV1",
+    "value": "SIOV-S14K275E2",
+    "footprint": "RV_Disc_D15.5mm_W5mm_P7.5mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U1",
+    "value": "74HC14",
+    "footprint": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U2",
+    "value": "MOC3063M",
+    "footprint": "DIP-6_W7.62mm",
+    "missing_footprint": false
+  },
+  {
+    "ref": "U3",
+    "value": "MOC3063M",
+    "footprint": "DIP-6_W7.62mm",
+    "missing_footprint": false
+  }
+]

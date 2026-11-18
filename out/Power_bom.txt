@@ -1,0 +1,45 @@
+=== BOM (список компонентов) для Power.net ===
+
+Компонент | Номинал                   | Footprint                     
+----------------------------------------------------------------
+C1   | 0.1uF 630V                | C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4
+C2   | 100 nF                    | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C3   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C4   | 47uF 10V                  | CP_Radial_D5.0mm_P2.00mm      
+C5   | 10 uF                     | C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C6   | 100nF                     | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C7   | 0.1uF 630V                | C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4
+C8   | 0.1uF 630V                | C_Rect_L13.0mm_W6.0mm_P10.00mm_FKS3_FKP3_MKS4
+D1   | LED Blue                  | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D2   | LED Purple                | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+D3   | LED Red                   | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+H1   | MountingHole              | MountingHole_3.2mm_M3         
+H2   | MountingHole              | MountingHole_3.2mm_M3         
+H3   | MountingHole              | MountingHole_3.2mm_M3         
+H4   | MountingHole              | MountingHole_3.2mm_M3         
+J1   | Heater 01                 | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J4   | Signal Input              | JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+J5   | +5V In                    | JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical
+J6   | Heater Out                | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+J7   | Heater Out                | TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+NT1  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
+NT2  | NetTie_2                  | NetTie-2_SMD_Pad0.5mm         
+Q1   | BTA12-600CRG              | TO-220-3_Vertical             
+Q2   | BTA12-600CRG              | TO-220-3_Vertical             
+R1   | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R2   | 10K                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R3   | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R4   | 1K                        | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R5   | 330R                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R6   | 330R                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R7   | 470R                      | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R8   | 330                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R9   | 330R                      | R_1210_3225Metric_Pad1.30x2.65mm_HandSolder
+R10  | 39R                       | R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
+R11  | 330                       | R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
+R12  | 330R                      | R_1210_3225Metric_Pad1.30x2.65mm_HandSolder
+R13  | 39R                       | R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
+RV1  | SIOV-S14K275E2            | RV_Disc_D15.5mm_W5mm_P7.5mm   
+U1   | 74HC14                    | SOIC-14_3.9x8.7mm_P1.27mm     
+U2   | MOC3063M                  | DIP-6_W7.62mm                 
+U3   | MOC3063M                  | DIP-6_W7.62mm                 

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Custom_Terminal_Blocks") (type "KiCad") (uri "D:/Projects/KiCad/Libraries/Custom_Terminal_Blocks.pretty") (options "") (descr ""))
+)
